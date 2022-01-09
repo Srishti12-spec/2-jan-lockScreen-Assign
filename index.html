@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Lock Screen</h1>
+    <div class="pin-login">
+        <p id="result"></p>
+        <input type="password" id="input-box" class="txt"> <!-- txt-error -->
+        <div class="numpad">
+            <div class="key" onclick=inputNum(0)>0</div>
+            <div class="key" onclick=inputNum(1)>1</div>
+            <div class="key" onclick=inputNum(2)>2</div><br>
+            <div class="key" onclick=inputNum(3)>3</div>
+            <div class="key" onclick=inputNum(4)>4</div>
+            <div class="key" onclick=inputNum(5)>5</div><br>
+            <div class="key" onclick=inputNum(6)>6</div>
+            <div class="key" onclick=inputNum(7)>7</div>
+            <div class="key" onclick=inputNum(8)>8</div><br>
+            <div class="key material-icons" onclick=backspace()>backspace</div>
+            <div class="key" onclick=inputNum(9)>9</div>
+            <div class="key material-icons" onclick=checkPin()>done</div>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>
